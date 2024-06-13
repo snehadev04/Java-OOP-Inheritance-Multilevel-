@@ -1,15 +1,15 @@
-public class advcal  extends calc
+// Define the 'advcal' class that extends 'calc' to add more operations
+public class advcal extends calc 
 {
-    int multi(int n1, int n2)
+    // Method to multiply two integers
+    int multi(int n1, int n2) 
     {
-        return n1*n2;
+        return n1 * n2;
     }
-        
-
-
-    int div(int n1, int n2)
+    
+    // Method to divide the first integer by the second
+    int div(int n1, int n2) 
     {
-        return n1/n2;
+        return n1 / n2;
     }
 }
-
